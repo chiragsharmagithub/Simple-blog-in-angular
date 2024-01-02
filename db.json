@@ -1,0 +1,34 @@
+{
+  "blogposts": [
+    {
+      "id": 1,
+      "title": "Google AI",
+      "author": "Google",
+      "content": "Blog content - Generative AI"
+    },
+    {
+      "id": 2,
+      "title": "Google AI post 2",
+      "author": "Google",
+      "content": "Blog content - Generative AI and LLM stuff"
+    },
+    {
+      "blogtitle": "My first blog",
+      "blogauthor": "Chrg",
+      "blogcontent": "Content 101",
+      "id": 3
+    },
+    {
+      "title": "Blog title 12345",
+      "author": "CHRG",
+      "content": "Content AI ML",
+      "id": 4
+    },
+    {
+      "title": "How to buy or rent great properties",
+      "author": "CHRG",
+      "content": "bla bla",
+      "id": 5
+    }
+  ]
+}
