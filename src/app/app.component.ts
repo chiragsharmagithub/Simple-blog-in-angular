@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 //
+import { HomeComponent } from './home/home.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { AboutComponent } from './about/about.component';
 import { ExtraPageComponent } from './extra-page/extra-page.component';
@@ -30,7 +31,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AboutComponent, 
     ExtraPageComponent,
     AddPostComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HomeComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

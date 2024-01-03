@@ -5,8 +5,10 @@ import { AddPostComponent } from './add-post/add-post.component';
 import { AppComponent } from './app.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HomeComponent } from './home/home.component';
 
 export const routes: Routes = [
+    {path: "home", component: HomeComponent},
     {path: "about", component: AboutComponent},
     {path: "extrapage", component: ExtraPageComponent},
     {path: "addpost", component: AddPostComponent},

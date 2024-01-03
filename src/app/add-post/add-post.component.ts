@@ -46,14 +46,8 @@ export class AddPostComponent {
 
 
 	ngOnInit(): void {
-		this.getBlogData();
+		
 	}
 
-	getBlogData() {
-		this.blogService.getBlogs()
-			.subscribe(
-				(data: any) => {
-					this.blogData = data;
-		})
-	}
+	
 }

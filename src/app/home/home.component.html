@@ -1,0 +1,17 @@
+<div class="col-sm-6 mx-auto">
+<div class="container">
+	<h1 class="gradient-text-2">All Blogs</h1>
+
+	<div *ngFor="let blog of blogData">
+	  <div class="card">
+		<h2>
+		  {{ blog.title }}
+		</h2>
+		<p>
+		  {{ blog.content }}
+		</p>
+		By - {{ blog.author }}
+	  </div>
+	</div>
+  </div>
+</div>
