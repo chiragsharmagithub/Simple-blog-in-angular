@@ -29,6 +29,24 @@
       "author": "CHRG",
       "content": "bla bla",
       "id": 5
+    },
+    {
+      "title": "Angular blogpost",
+      "author": "CHRG",
+      "content": "Blogpost's content ...",
+      "id": 6
+    },
+    {
+      "title": "Srishti ka blog",
+      "author": "Srishti",
+      "content": "Mera year end review krva do na plzzz",
+      "id": 7
+    },
+    {
+      "title": "New Blog",
+      "author": "CHRG",
+      "content": "blog content blog content blog content blog content blog content blog content blog content blog content blog content blog content blog content blog content ",
+      "id": 8
     }
   ]
 }

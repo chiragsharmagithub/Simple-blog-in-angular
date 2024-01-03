@@ -1,0 +1,75 @@
+.gradient-text {
+    background-color: #CA4246;
+    background-image: linear-gradient(45deg, rgb(30, 0, 255), rgb(255, 255, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    background-repeat: repeat;
+}
+
+.gradient-text-2 {
+    background-color: #CA4246;
+    background-image: linear-gradient(45deg, rgb(142, 199, 0), rgb(246, 255, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    background-repeat: repeat;
+}
+
+.horizontal-line {
+    background-image: linear-gradient(45deg, 
+                                    #ad8cff 25%, 
+                                    #0066db 25%,
+                                    #0066db 50%,
+                                    #ad8cff 50%,
+                                    #ad8cff 75%, 
+                                    #0066db 75%);
+    -webkit-text-fill-color: transparent; 
+    background-size: 100%;                         
+}
+
+.input-text-design {
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 6px 3px #e7e7e7;
+}
+
+.card {
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    box-shadow: 0px 4px 8px 0 rgb(0, 0, 0, 0.2);
+    transition: 0.25s;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
+}
+
+/* .blog-background {
+    background-color: #f8f8f8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+
+/* 2,59,000
+
+9,38,000
+
+8,00,000
+
+1% file charge
+closure: 2 to 3%
+
+loan on reducing?
+
+36,000
+
+8.5  */
