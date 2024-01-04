@@ -6,11 +6,14 @@ import { AppComponent } from './app.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
+import { BlogDetailsComponent } from './blog-details/blog-details.component';
 
 export const routes: Routes = [
+    {path: "blog/:id", component: BlogDetailsComponent},
     {path: "home", component: HomeComponent},
     {path: "about", component: AboutComponent},
     {path: "extrapage", component: ExtraPageComponent},
     {path: "addpost", component: AddPostComponent},
-    {path: "**", component: PageNotFoundComponent}
+    {path: "**", component: HomeComponent}
+    // {path: "**", component: PageNotFoundComponent}
 ];

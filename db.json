@@ -13,9 +13,9 @@
       "content": "Blog content - Generative AI and LLM stuff"
     },
     {
-      "blogtitle": "My first blog",
-      "blogauthor": "Chrg",
-      "blogcontent": "Content 101",
+      "title": "My first blog",
+      "author": "Chrg",
+      "content": "Content 101",
       "id": 3
     },
     {
@@ -47,6 +47,12 @@
       "author": "CHRG",
       "content": "blog content blog content blog content blog content blog content blog content blog content blog content blog content blog content blog content blog content ",
       "id": 8
+    },
+    {
+      "title": "A detailed blog",
+      "author": "CHRG",
+      "content": "Blogs have become an integral part of the digital landscape, serving as dynamic platforms for individuals and organizations to share information, insights, and perspectives with a global audience. These online journals have evolved from simple personal diaries to powerful tools that influence opinions, drive conversations, and disseminate knowledge across diverse topics. Whether it's fashion, technology, lifestyle, or niche interests, blogs offer a versatile medium for writers to express themselves and connect with like-minded individuals.\n\nOne of the key strengths of blogs lies in their accessibility. With the advent of user-friendly blogging platforms, virtually anyone with an internet connection can create and publish content, democratizing the dissemination of information. This democratization has given rise to a diverse array of voices, fostering a rich tapestry of perspectives that might otherwise be marginalized in traditional media outlets. Additionally, blogs often provide a more interactive experience, allowing readers to engage through comments, feedback, and social media shares, creating a sense of community around shared interests.\n\nIn the era of rapid information consumption, blogs serve as valuable repositories of in-depth analysis, personal experiences, and expert opinions. They play a pivotal role in shaping public discourse, challenging conventional wisdom, and acting as catalysts for social change. As the digital landscape continues to evolve, blogs remain influential channels that bridge the gap between creators and consumers, fostering a vibrant exchange of ideas in the ever-expanding realm of the internet.",
+      "id": 9
     }
   ]
 }

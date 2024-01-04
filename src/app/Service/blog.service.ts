@@ -8,6 +8,8 @@ import { Observable } from 'rxjs';
 })
 export class BlogService {
 
+	currentBlogId: number = 0;
+
 	url = 'http://localhost:8000/blogposts';
 
 	constructor(private http: HttpClient) { }
@@ -24,7 +26,15 @@ export class BlogService {
 		return this.http.get<any>(this.url);
 	}
 
-	getBlogById() {
+	getBlogById(blogId: number): Observable<Blog> {
+		return this.http.get<Blog>(this.url + "/" + blogId);
+	}
 
+	setCurrentBlogId(id: number) {
+		this.currentBlogId = id;
+		console.log("Inside BlogService, blog id being received = " + this.currentBlogId);
+	}
+	getCurrentBlogId() {
+		return this.currentBlogId;
 	}
 }

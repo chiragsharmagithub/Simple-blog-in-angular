@@ -1,17 +1,21 @@
 <div class="col-sm-6 mx-auto">
-<div class="container">
-	<h1 class="gradient-text-2">All Blogs</h1>
+  <div class="container">
+    <h1 class="gradient-text-2">All Blogs</h1>
 
-	<div *ngFor="let blog of blogData">
-	  <div class="card">
-		<h2>
-		  {{ blog.title }}
-		</h2>
-		<p>
-		  {{ blog.content }}
-		</p>
-		By - {{ blog.author }}
-	  </div>
-	</div>
+    <div *ngFor="let blog of blogData">
+      <a class="a-design" [routerLink]="'/blog/' + blog.id">
+        <div class="card mb-3 p-3 my-3 card-design">
+          <h2>
+            {{ blog.title }}
+          </h2>
+          <p>{{ blog.content | slice : 0 : 50 }} ...</p>
+          <span style="color: blue"> By - {{ blog.author }} </span>
+        </div>
+      </a>
+    </div>
   </div>
 </div>
+
+<!-- Add feature to not display the blog when the blog title is blank -->
+
+<!-- ng-click="sendCurrentBlogId(blog.id)" -->

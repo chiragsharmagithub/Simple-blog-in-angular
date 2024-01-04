@@ -38,7 +38,8 @@ export class AddPostComponent {
 					// Add a toast to be displayed when a record is successfully saved.
 				},
 				(error) => {
-					console.log("ERROR");	
+					console.log("Some error occured");
+					console.log(error);	
 				}
 			)
 			// Reset form's values
