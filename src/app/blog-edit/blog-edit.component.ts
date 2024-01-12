@@ -53,20 +53,8 @@ export class BlogEditComponent implements OnInit {
       })
   }
 
-  onSubmit(editBlogForm: NgForm) {
-    // addBlogForm.vaddBlogForm.setValue({});alue.Id = 2;
-    console.log(editBlogForm.value);
-    // this.blogData.push(addBlogForm.value);
-
-    // console.log("Number of records in blogs: " + this.blogData.length);
-
+  onSubmit() {
     var blog_id = this.blogData.id;
-    console.log("Checkpoint 1: Blog id = " + blog_id);
-    console.log("editBlogForm.value = ");
-    console.log(editBlogForm.value);
-    console.log("Break");
-    console.log("Blog data =");
-    console.log(this.blogData);
     this.blogService.updateBlog(blog_id, this.blogData).subscribe(
       (data) => {
         console.log('Blog edited successfully.');
@@ -81,6 +69,4 @@ export class BlogEditComponent implements OnInit {
     );
     // Reset form's values
   }
-
-
 }
