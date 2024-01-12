@@ -1,23 +1,10 @@
-<h4>
-  Edit blog works
-  <br>
-  Blog id = {{ blogData.id }}, <br>
-  Blog title = {{ blogData.title }}, <br>
-  Author = {{ blogData.author }} <br>
-  <p>
-    Content: <br>
-    {{ blogData.content }}
-  </p>
-</h4>
-
 <div class="col-sm-6 mx-auto">
   <div class="container">
     <h1 class="gradient-text">Edit Blogpost details</h1>
-    <!-- <hr class="horizontal-line"/> -->
   </div>
 
   <div class="blog-background">
-    <form #editBlogForm="ngForm" (ngSubmit)="onSubmit(editBlogForm)">
+    <form #editBlogForm="ngForm" (ngSubmit)="onSubmit()">
       <div class="container">
         <div class="mb-3">
           <label class="form-label" for="blogtitle">Blog title</label>
