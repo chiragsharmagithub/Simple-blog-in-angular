@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, NgForm, FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 //
 import { Blog } from '../models/blog.model';
 import { BlogService } from '../Service/blog.service';
+import { Router } from '@angular/router';
 // import { v4 as uuid } from 'uuid';
 
 
@@ -14,9 +15,9 @@ import { BlogService } from '../Service/blog.service';
   templateUrl: './add-post.component.html',
   styleUrl: './add-post.component.css',
 })
-export class AddPostComponent {
+export class AddPostComponent implements OnInit {
 
-	constructor(private blogService: BlogService) {}
+	constructor(private blogService: BlogService, private navigate: Router) {}
 
 	blogData: Blog[] = [];
 
@@ -36,6 +37,7 @@ export class AddPostComponent {
 					console.log("Blog saved successfully.");
 					console.log(data);
 					// Add a toast to be displayed when a record is successfully saved.
+					this.navigate.navigateByUrl("/");
 				},
 				(error) => {
 					console.log("Some error occured");

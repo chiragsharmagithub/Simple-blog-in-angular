@@ -1,0 +1,63 @@
+<h4>
+  Edit blog works
+  <br>
+  Blog id = {{ blogData.id }}, <br>
+  Blog title = {{ blogData.title }}, <br>
+  Author = {{ blogData.author }} <br>
+  <p>
+    Content: <br>
+    {{ blogData.content }}
+  </p>
+</h4>
+
+<div class="col-sm-6 mx-auto">
+  <div class="container">
+    <h1 class="gradient-text">Edit Blogpost details</h1>
+    <!-- <hr class="horizontal-line"/> -->
+  </div>
+
+  <div class="blog-background">
+    <form #editBlogForm="ngForm" (ngSubmit)="onSubmit(editBlogForm)">
+      <div class="container">
+        <div class="mb-3">
+          <label class="form-label" for="blogtitle">Blog title</label>
+          <input
+            type="text"
+            class="form-control input-text-design"
+            name="title"
+            placeholder="blog title"
+            [(ngModel)] = "blogData.title"
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="blogauthor">Author</label>
+          <input
+            type="text"
+            class="form-control input-text-design"
+            name="author"
+            placeholder="author"
+            [(ngModel)]="blogData.author"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="blogcontent" class="form-label"> Content </label>
+          <textarea
+            class="form-control input-text-design"
+            name="content"
+            rows="3"
+            placeholder="please add blog content"
+            style="height: 200px"
+            [(ngModel)] = "blogData.content"
+          ></textarea>
+        </div>
+      </div>
+      <div style="text-align: center">
+        <button type="submit" class="btn btn-primary">Update</button>
+        &nbsp;
+        <button class="btn btn-secondary">Clear</button>
+      </div>
+    </form>
+  </div>
+
+</div>

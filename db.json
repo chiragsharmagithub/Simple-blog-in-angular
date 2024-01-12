@@ -1,28 +1,10 @@
 {
   "blogposts": [
     {
-      "id": 1,
-      "title": "Google AI",
-      "author": "Google",
-      "content": "Blog content - Generative AI"
-    },
-    {
       "id": 2,
       "title": "Google AI post 2",
       "author": "Google",
       "content": "Blog content - Generative AI and LLM stuff"
-    },
-    {
-      "title": "My first blog",
-      "author": "Chrg",
-      "content": "Content 101",
-      "id": 3
-    },
-    {
-      "title": "Blog title 12345",
-      "author": "CHRG",
-      "content": "Content AI ML",
-      "id": 4
     },
     {
       "title": "How to buy or rent great properties",
@@ -53,6 +35,36 @@
       "author": "CHRG",
       "content": "Blogs have become an integral part of the digital landscape, serving as dynamic platforms for individuals and organizations to share information, insights, and perspectives with a global audience. These online journals have evolved from simple personal diaries to powerful tools that influence opinions, drive conversations, and disseminate knowledge across diverse topics. Whether it's fashion, technology, lifestyle, or niche interests, blogs offer a versatile medium for writers to express themselves and connect with like-minded individuals.\n\nOne of the key strengths of blogs lies in their accessibility. With the advent of user-friendly blogging platforms, virtually anyone with an internet connection can create and publish content, democratizing the dissemination of information. This democratization has given rise to a diverse array of voices, fostering a rich tapestry of perspectives that might otherwise be marginalized in traditional media outlets. Additionally, blogs often provide a more interactive experience, allowing readers to engage through comments, feedback, and social media shares, creating a sense of community around shared interests.\n\nIn the era of rapid information consumption, blogs serve as valuable repositories of in-depth analysis, personal experiences, and expert opinions. They play a pivotal role in shaping public discourse, challenging conventional wisdom, and acting as catalysts for social change. As the digital landscape continues to evolve, blogs remain influential channels that bridge the gap between creators and consumers, fostering a vibrant exchange of ideas in the ever-expanding realm of the internet.",
       "id": 9
+    },
+    {
+      "title": "Pratibha ka blog",
+      "author": "Pratibha",
+      "content": "Momos bahut aache hai",
+      "id": 10
+    },
+    {
+      "title": "ChatGPT LLM",
+      "author": "CHRG",
+      "content": "ChatGPT is a state-of-the-art large language model (LLM) developed by OpenAI, specifically belonging to the GPT-3.5 architecture. This advanced model excels in natural language understanding and generation tasks, making it a powerful tool for various applications. With a knowledge cutoff in 2022, ChatGPT has been trained on a diverse range of internet text, enabling it to comprehend and respond to user inputs coherently. Its versatility allows it to assist users in generating human-like text, answering queries, providing creative writing support, and even engaging in interactive conversations. However, like any technology, it has limitations, including occasional generation of inaccurate or biased information. Constant improvements and updates contribute to enhancing ChatGPT's performance and addressing potential shortcomings, making it a remarkable innovation in the field of natural language processing.",
+      "id": 11
+    },
+    {
+      "title": "LLMs",
+      "author": "CHRG",
+      "content": "Large Language Models (LLMs) represent a breakthrough in natural language processing, exemplified by models like GPT-3. These colossal neural networks, comprising billions of parameters, can understand and generate human-like text. LLMs excel in a myriad of language-related tasks, from translation and summarization to question-answering and creative writing. They are trained on vast datasets, honing their linguistic prowess by capturing diverse patterns and nuances present in written language. While LLMs showcase remarkable capabilities, ethical considerations, such as biases and responsible use, are crucial aspects to address in their development and deployment, ensuring that these powerful tools contribute positively to the advancement of human communication and understanding.",
+      "id": 12
+    },
+    {
+      "title": "Startups 8",
+      "author": "CHRG",
+      "content": "Startups epitomize innovation and entrepreneurial spirit, emerging as dynamic entities at the forefront of industry disruption. Founded on bold ideas and driven by passion, startups navigate the volatile landscape of business, often challenging established norms with agile and inventive approaches. These fledgling companies thrive on risk-taking, attracting risk-tolerant individuals eager to shape the future. The startup culture values adaptability, rapid iteration, and a collaborative mindset, fostering a creative environment that encourages learning from failures. While many startups face significant challenges, those that succeed can revolutionize markets, redefine industries, and contribute to economic growth, showcasing the power of ingenuity and perseverance.",
+      "id": 13
+    },
+    {
+      "id": 17,
+      "title": "Second startup",
+      "author": "CHRG",
+      "content": "Startups embody the entrepreneurial spirit, forging innovative paths in a dynamic business landscape. Fueled by passion, vision, and often a disruptive idea, these fledgling ventures navigate uncertainties with resilience. Agility defines their DNA, enabling swift adaptation to market shifts. Startups cultivate a culture of collaboration and risk-taking, attracting talent eager to contribute to something groundbreaking. In pursuit of scalability, they leverage technology, fostering digital disruption. Financing challenges are inherent, leading to creative fundraising strategies and reliance on angel investors or venture capital. Success hinges on a delicate balance of agility, adaptability, and strategic vision, creating an ecosystem where bold ideas thrive and reshape industries."
     }
   ]
 }

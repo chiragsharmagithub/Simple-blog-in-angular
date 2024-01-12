@@ -14,6 +14,8 @@ import { AboutComponent } from './about/about.component';
 import { ExtraPageComponent } from './extra-page/extra-page.component';
 import { AddPostComponent } from './add-post/add-post.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { BlogEditComponent } from './blog-edit/blog-edit.component';
+import { BlogDetailsComponent } from './blog-details/blog-details.component';
 
 @Component({
   selector: 'app-root',
@@ -32,7 +34,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ExtraPageComponent,
     AddPostComponent,
     PageNotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    BlogEditComponent,
+    BlogDetailsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
