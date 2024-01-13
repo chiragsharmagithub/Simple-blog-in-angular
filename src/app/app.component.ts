@@ -36,7 +36,7 @@ import { BlogDetailsComponent } from './blog-details/blog-details.component';
     PageNotFoundComponent,
     HomeComponent,
     BlogEditComponent,
-    BlogDetailsComponent
+    BlogDetailsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

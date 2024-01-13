@@ -1,4 +1,20 @@
-<div class="col-sm-6 mx-auto">
+<div class="home-banner-design" *ngIf="!showAllBlogs">
+  <div>
+    <img src="../../assets/home_cover_2.png">
+    <div class="text-design">
+        Hey there!
+        <br>
+        <h2 style="font-size: 55px;">
+          I am a Blogger!
+        </h2>
+    </div>
+    <div>
+      <button class="button-design" (click)="showAllBlogs = true">Start blogging</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-sm-6 mx-auto" *ngIf="showAllBlogs">
   <div class="container">
     <h1 class="gradient-text-2">All Blogs</h1>
 
@@ -8,7 +24,7 @@
           <h2>
             {{ blog.title }}
           </h2>
-          <p>{{ blog.content | slice : 0 : 50 }} ...</p>
+          <p>{{ blog.content | slice : 0 : 170 }} ...</p>
           <span style="color: blue"> By - {{ blog.author }} </span>
         </div>
       </a>

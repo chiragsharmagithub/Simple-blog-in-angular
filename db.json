@@ -4,12 +4,12 @@
       "id": 2,
       "title": "Google AI post",
       "author": "Google LLC",
-      "content": "Blog content - Generative AI and LLM stuff"
+      "content": "Google AI, at the forefront of artificial intelligence research, continually pushes boundaries, unraveling new possibilities. Pioneering breakthroughs in machine learning, natural language processing, and computer vision, Google AI transforms concepts into reality. The team's commitment to open-source initiatives, like TensorFlow, fosters collaboration, propelling AI accessibility worldwide. Google AI's projects span diverse domains, from healthcare advancements to language translation, showcasing the profound impact of AI on society. Their blog posts serve as beacons, illuminating the latest research, fostering a global dialogue on the ethical and societal implications of AI. Google AI is a vanguard, shaping the future of intelligent technologies."
     },
     {
       "title": "How to buy or rent great properties",
       "author": "CHRG",
-      "content": "bla bla",
+      "content": "To navigate the realm of real estate successfully, whether buying or renting, strategic decision-making is paramount. Start by defining your priorities, considering location, budget, and property type. Extensive research on market trends, neighborhood dynamics, and property values is essential. Engage with real estate professionals, leveraging their expertise to streamline the process. For buying, secure pre-approval for a mortgage to strengthen your negotiating position. When renting, scrutinize lease terms and property conditions. Attend open houses, inspect thoroughly, and envision long-term suitability. The key lies in being informed, patient, and discerning, ensuring that your investment or rental aligns seamlessly with your lifestyle and financial goals.",
       "id": 5
     },
     {
@@ -25,13 +25,13 @@
       "id": 11
     },
     {
-      "title": "LLMs",
+      "title": "Detailed blog about LLMs",
       "author": "CHRG",
       "content": "Large Language Models (LLMs) represent a breakthrough in natural language processing, exemplified by models like GPT-3. These colossal neural networks, comprising billions of parameters, can understand and generate human-like text. LLMs excel in a myriad of language-related tasks, from translation and summarization to question-answering and creative writing. They are trained on vast datasets, honing their linguistic prowess by capturing diverse patterns and nuances present in written language. While LLMs showcase remarkable capabilities, ethical considerations, such as biases and responsible use, are crucial aspects to address in their development and deployment, ensuring that these powerful tools contribute positively to the advancement of human communication and understanding.",
       "id": 12
     },
     {
-      "title": "Startups 8",
+      "title": "Startups",
       "author": "CHRG",
       "content": "Startups epitomize innovation and entrepreneurial spirit, emerging as dynamic entities at the forefront of industry disruption. Founded on bold ideas and driven by passion, startups navigate the volatile landscape of business, often challenging established norms with agile and inventive approaches. These fledgling companies thrive on risk-taking, attracting risk-tolerant individuals eager to shape the future. The startup culture values adaptability, rapid iteration, and a collaborative mindset, fostering a creative environment that encourages learning from failures. While many startups face significant challenges, those that succeed can revolutionize markets, redefine industries, and contribute to economic growth, showcasing the power of ingenuity and perseverance.",
       "id": 13
