@@ -16,6 +16,13 @@ export class HomeComponent implements OnInit {
   blogData: Blog[] = [];
   count = 0;
 
+  showAllBlogs: boolean = false;
+
+  showBlogs() {
+    this.showAllBlogs = true;
+    console.log("Show blogs status = " + this.showAllBlogs);
+  }
+
   constructor(private blogService: BlogService) {}
 
   ngOnInit(): void {
